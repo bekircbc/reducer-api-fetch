@@ -1,3 +1,48 @@
 .App {
-  text-align: center;
+  background-color: #333;
+  color: #ccc;
+  padding: 20px;
+  font-size: 1.5rem;
+
+  a {
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  a.active {
+    color: yellow;
+  }
+
+  .books {
+    .book {
+      background-color: #222;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 0 0 10px 0;
+      display: flex;
+
+      img {
+        height: 170px;
+      }
+
+      .info {
+        margin-left: 10px;
+
+        .title {
+          color: rgb(228, 171, 65);
+        }
+
+        .description {
+          font-size: 1.1rem;
+          font-style: italic;
+        }
+      }
+
+      .buttonArea {
+        button {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
 }
