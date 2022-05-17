@@ -1,8 +1,8 @@
 import "./App.scss";
-import { PageWelcome } from "./pages/PageWelcome";
-import { PageBooks } from "./pages/PageBooks";
-import { PageMembers } from "./pages/PageMembers";
-import { PageAbout } from "./pages/PageAbout";
+import { PageWelcome } from "./components/PageWelcome";
+import { PageBooks } from "./components/PageBooks";
+import { PageMembers } from "./components/PageMembers";
+import { PageAbout } from "./components/PageAbout";
 import { NavLink, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AppContext } from "./AppContext";
