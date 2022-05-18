@@ -51,6 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     align-content: center;
+
     .employee {
       display: flex;
       margin: 10px;
@@ -58,6 +59,7 @@ body {
       color: black;
       border-radius: 10px;
       padding: 10px;
+      width: 90vw;
 
       img {
         margin: 0 10px 0 0;
