@@ -3,7 +3,7 @@ import { AppContext } from "../AppContext";
 
 export const PageMembers = () => {
   const { members } = useContext(AppContext);
-  console.log(members);
+
   return (
     <>
       <h2>Members</h2>
@@ -14,7 +14,7 @@ export const PageMembers = () => {
             <div className="employee" key={index}>
               <div className="imgEmployee">
                 <img
-                  src={`../../public/images/employee_${member.employeeID}.jpg`}
+                  src={`../public/images/employee_${member.employeeID}.jpg`}
                   alt={member.lastName}
                 />
               </div>
