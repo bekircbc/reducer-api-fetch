@@ -10,4 +10,4 @@
 
 ## Webpage Links
 
-- [https://apexchart-navbar-reactvite.netlify.app/]
+- [https://reducer-api-fetch.netlify.app/]
