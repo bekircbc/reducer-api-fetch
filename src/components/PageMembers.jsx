@@ -14,7 +14,7 @@ export const PageMembers = () => {
             <div className="employee" key={index}>
               <div className="imgEmployee">
                 <img
-                  src={`../../public/images/employee_${member.employeeID}.jpg`}
+                  src={`images/employee_${member.employeeID}.jpg`}
                   alt={member.lastName}
                 />
               </div>
