@@ -3,8 +3,8 @@ import axios from "axios";
 
 export const AppContext = createContext();
 
-const bookUrl = "https://edwardtanguay.netlify.app/share/books.json";
-const memberUrl = "https://edwardtanguay.netlify.app/share/employees.json";
+const bookUrl = "https://apis-for-beginner.bscebeci.de/api/books";
+const memberUrl = "https://apis-for-beginner.bscebeci.de/api/employees";
 
 export const AppProvider = ({ children }) => {
   const [books, setBooks] = useState([]);
